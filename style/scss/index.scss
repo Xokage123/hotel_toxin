@@ -1,0 +1,17 @@
+@import "blocks/index";
+@import "extensions/index";
+
+h1 {
+  font-size: $size_h1;
+  line-height: $line_h1;
+}
+
+h2 {
+  font-size: $size_h2;
+  line-height: $line_h2;
+}
+
+h3 {
+  font-size: $size_h3;
+  line-height: $line_h3;
+}

@@ -1,1 +1,15 @@
 doctype html
+html(lang="ru")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="initial-scale=1.0, width=device-width")
+		title Мой первый проект
+		link(rel="stylesheet" href="../style/css/normalize.css")
+		link(rel="stylesheet" href="../style/scss/index.scss")
+		include utils/bemto/bemto
+		include utils/_mixin
+		include utils/_variables
+	body
+		include blocks/header
+		include blocks/main
+		include blocks/footer
